@@ -1,0 +1,26 @@
+.main-image {
+  background-image: url('../images/living-room.jpg');
+  height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+}
+
+.main-image__text {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 60px 0 $mainPadding;
+}
+
+.main-image__slogan {
+  text-align: center;
+  font-family: 'RobotoI';
+  color: $colorSubtitles;
+}
+
+.main-container__products {
+  padding: $mainPadding;
+  display: flex;
+  gap: $mainPadding;
+}

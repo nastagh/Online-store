@@ -1,0 +1,74 @@
+.product-card {
+  width: 186px;
+  height:307px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 2px #cac6c6;
+  border-radius: 5px;
+  position: relative;
+
+
+  &:hover {
+    cursor: pointer;
+    background-color: #e0e0e0;
+    box-shadow: 0 2px 35px 14px rgba(23, 23, 23, 0.06);
+}
+}
+
+.product-card__img {
+  background-color: $backgroundColorMain;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  &>img {
+    width: 80%;
+  }
+}
+
+.product-card__name {
+  padding-top: 10px;
+  font-family: 'RobotoR', sans-serif;
+  letter-spacing: $letterSpacing;
+}
+
+.product-properties {
+  list-style: none;
+  padding: 10px 0;
+  font-family: 'RobotoR', sans-serif;
+  letter-spacing: $letterSpacing;
+
+  span {
+    margin-left: 10px;
+  }
+}
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $mainPadding;
+}
+
+.basket-sign{
+  position: absolute;
+  width: $busketCircl;
+  height: $busketCircl;
+  border-radius: 50%;
+  background-color: $rangeInputColor;
+}
+
+.only-card {
+  bottom: 5px;
+  right: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.hide {
+  display: none;
+}

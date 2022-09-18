@@ -1,0 +1,29 @@
+@import "~normalize.css";
+
+@import "constants";
+@import "fonts";
+@import "header";
+@import "main";
+@import "filters";
+@import "products";
+@import "footer";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+.wrapper__content {
+  max-width: $contentWidth;
+  margin: 0 auto;
+}
+
+.wrapper{
+  background-color: $backgroundColorMain;
+}
+
+.wrapper__content_color {
+  background-color: $backgroundColor;
+}

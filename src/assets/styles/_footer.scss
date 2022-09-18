@@ -1,0 +1,25 @@
+.footer-container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-container__github {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.github {
+  width: 2rem;
+}
+
+.school {
+  width: 5rem;
+}
+
+.footer-container__year {
+  font-family: 'Roboto', sans-serif;
+}

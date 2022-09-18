@@ -1,0 +1,49 @@
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: $mainPadding 0;
+}
+
+.header-container__logo {
+  height: 35px;
+}
+
+.header-text__title {
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: $mainPadding;
+  font-family: 'Kaushan', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.header-text__nav {
+  display: flex;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-family: 'Roboto', san-serif;
+  justify-content: space-between;
+}
+
+.header-container__basket {
+  flex-grow: 0;
+  width: 35px;
+  position: relative;
+}
+
+.basket {
+  width: 100%;
+}
+
+.only-basket {
+  top: -6px;
+  right: -6px;
+  text-align: center;
+}
+
+.header-text {
+  max-width: 600px;
+  flex-grow: 1;
+}
